@@ -1,0 +1,138 @@
+div[data-component-term='user_recommendations'],
+div[data-component-term='trends'],
+div[data-component-term='similar_user_recommendations']
+{
+  display: none !important;
+}
+
+div[data-component-term='footer']
+{
+  position:fixed;
+  bottom:0;
+  left:-300px;
+  width:300px;
+}
+
+#doc .wrapper,
+#doc .global-nav .container
+{
+  width: 750px;
+}
+
+/*---------*/
+/* Profile */
+/*---------*/
+#doc .content-main, #doc .dashboard
+{
+  width:auto;
+  float:none;
+}
+
+#doc .profile-summary
+{
+  padding: 7px;
+}
+
+#doc .js-mini-profile-stats-container
+{
+  position:absolute;
+  right:10px;
+  top:0;
+}
+
+#doc .js-mini-profile-stats-container ul
+{
+  border:none;
+}
+
+#doc .tweet-box textarea.twitter-anywhere-tweet-box-editor
+{
+  width: 98% !important;
+}
+
+#doc .js-mini-profile-stats-container .stats a
+{
+  text-align: center;
+}
+
+/*-----------------*/
+/* Compact retweet */
+/*-----------------*/
+#doc div[data-retweet-id]
+{
+  min-height: 0;
+  background-color: #f3f3f3;
+  opacity: 0.5;
+}
+
+#doc div[data-retweet-id] img.avatar
+{
+  display: none;
+}
+
+#doc div[data-retweet-id] p.js-tweet-text
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 400px;
+}
+
+#doc div[data-retweet-id] ul.actions
+{
+  display: none;
+}
+
+#doc div[data-retweet-id] .stream-item-footer
+{
+  position: absolute;
+  bottom: 7px;
+  right: 13px;
+}
+
+/*----------------*/
+/* Expand retweet */
+/*----------------*/
+#doc div.expanding-stream-item.open div[data-retweet-id]
+{
+  background-color: #fff;
+  opacity: 1;
+}
+
+#doc div.expanding-stream-item.open div[data-retweet-id] p.js-tweet-text
+{
+  overflow: visible;
+  white-space: normal;
+  width: auto;
+}
+
+#doc div.expanding-stream-item.open div[data-retweet-id] img.avatar
+{
+  display: block;
+}
+
+#doc div.expanding-stream-item.open div[data-retweet-id] ul.actions
+{
+  display: block;
+}
+
+/*-----*/
+/* Nav */
+/*-----*/
+#doc li .chev-right
+{
+  display: none;
+}
+
+#doc li:hover .chev-right
+{
+  display: block;
+  -webkit-transform: rotate(90deg);
+}
+
+#doc li.active .chev-right
+{
+  display: block;
+  -webkit-transform: rotate(90deg);
+  background-position: 0 -160px;
+}
