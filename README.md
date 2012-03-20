@@ -19,4 +19,5 @@
 
 Just go on [Twitter](https://twitter.com) with your configurated Chrome browser.
 
-![](http://img171.imageshack.us/img171/2140/oldtwittermini.png "Standard twitter") becomes ![](http://img710.imageshack.us/img710/3131/mytwittermini.png "myTwitter")
+[![](http://img171.imageshack.us/img171/2140/oldtwittermini.png "Standard twitter")](http://img94.imageshack.us/img94/716/oldtwitter.png "Standard twitter")
+becomes [![](http://img710.imageshack.us/img710/3131/mytwittermini.png "myTwitter")](http://img718.imageshack.us/img718/8833/mytwitter.png "myTwitter")
