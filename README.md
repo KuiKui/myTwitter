@@ -7,7 +7,13 @@
 * Increase timeline width
 * Decrease retweets visibilty
 
-##How to install##
+##How to use##
+Install [Chrome extension](https://chrome.google.com/webstore/detail/blogaalpphinblmlnbeekgkckebgfpop) and just go on [Twitter](https://twitter.com).
+
+[![](http://img171.imageshack.us/img171/2140/oldtwittermini.png "Standard twitter")](http://img94.imageshack.us/img94/716/oldtwitter.png "Standard twitter")
+becomes [![](http://img710.imageshack.us/img710/3131/mytwittermini.png "myTwitter")](http://img718.imageshack.us/img718/8833/mytwitter.png "myTwitter")
+
+##How to install for dev##
 
 * Get **myTwitter** [here](https://github.com/KuiKui/myTwitter/zipball/master) or clone it
 * Open Tools > Extensions menu in Chrome
@@ -15,9 +21,6 @@
 * Click on _load the unpacked extension_
 * Select the path to your local copy of **myTwitter**
 
-##How to use##
+##Contact##
 
-Just go on [Twitter](https://twitter.com) with your configurated Chrome browser.
-
-[![](http://img171.imageshack.us/img171/2140/oldtwittermini.png "Standard twitter")](http://img94.imageshack.us/img94/716/oldtwitter.png "Standard twitter")
-becomes [![](http://img710.imageshack.us/img710/3131/mytwittermini.png "myTwitter")](http://img718.imageshack.us/img718/8833/mytwitter.png "myTwitter")
+You can contact me by [twitter](https://twitter.com/dondouny).
