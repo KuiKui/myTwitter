@@ -1,4 +1,4 @@
-**myTwitter** is an lightweight [Chrome](https://www.google.com/chrome) extension that simplifies your [Twitter](https://twitter.com) timeline with a few CSS modifications.
+**myTwitter** is an lightweight [Chrome](https://www.google.com/chrome) extension that improves readability of your [Twitter](https://twitter.com) web timeline with a few CSS modifications.
 
 ##What is changed##
 
