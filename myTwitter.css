@@ -13,7 +13,11 @@ div[data-component-term='footer']
   width:300px;
 }
 
-#doc .wrapper,
+#doc .wrapper
+{
+  width: 723px;
+}
+
 #doc .global-nav .container
 {
   width: 750px;
@@ -30,7 +34,7 @@ div[data-component-term='footer']
 
 #doc .profile-summary
 {
-  padding: 7px;
+  padding: 9px 12px 12px 12px;
 }
 
 #doc .js-mini-profile-stats-container
@@ -45,6 +49,16 @@ div[data-component-term='footer']
   border:none;
 }
 
+#doc .tweet-box
+{
+  background-color: #f9f9f9;
+}
+
+#doc .tweet-box.tweet-user
+{
+  padding-top: 0;
+}
+
 #doc .tweet-box textarea.twitter-anywhere-tweet-box-editor
 {
   width: 98% !important;
@@ -53,6 +67,22 @@ div[data-component-term='footer']
 #doc .js-mini-profile-stats-container .stats a
 {
   text-align: center;
+  padding: 12px;
+}
+
+/*----------*/
+/* Timeline */
+/*----------*/
+#doc .content-header .header-inner
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f9f9f9;
+}
+
+#doc .content-header .header-inner h2
+{
+  font-size: 14px;
 }
 
 /*-----------------*/
