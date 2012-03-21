@@ -116,8 +116,13 @@ div[data-component-term='footer']
 #doc div[data-retweet-id] .stream-item-footer
 {
   position: absolute;
-  bottom: 7px;
+  top: 8px;
   right: 13px;
+}
+
+#doc div[data-retweet-id] .stream-item-header small.time
+{
+  display: none;
 }
 
 /*----------------*/
@@ -144,6 +149,13 @@ div[data-component-term='footer']
 #doc div.expanding-stream-item.open div[data-retweet-id] ul.actions
 {
   display: block;
+}
+
+#doc div.expanding-stream-item.open div[data-retweet-id] .stream-item-footer
+{
+  position: relative;
+  right: 0;
+  top: 5px;
 }
 
 /*-----*/
