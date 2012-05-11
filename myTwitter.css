@@ -73,6 +73,14 @@ div[data-component-term='footer']
 /*----------*/
 /* Timeline */
 /*----------*/
+#doc .tweet.hover {
+  background-color: #fffdf6;
+}
+
+#doc .tweet.hover img.avatar {
+  box-shadow: 0 0 10px #999;
+}
+
 #doc .content-header .header-inner
 {
   padding-top: 5px;
@@ -83,6 +91,25 @@ div[data-component-term='footer']
 #doc .content-header .header-inner h2
 {
   font-size: 14px;
+}
+
+#doc .stream-item-header {
+  padding-bottom: 3px;
+}
+
+#doc .stream-item-footer {
+  position: absolute;
+  top: 9px;
+  right: 60px;
+  opacity: 0.5;
+}
+
+#doc .stream-item-footer .context {
+  text-align: right;
+}
+
+#doc .stream-item-footer .js-details {
+  display: none;
 }
 
 /*-----------------*/
@@ -105,12 +132,7 @@ div[data-component-term='footer']
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 400px;
-}
-
-#doc div[data-retweet-id] ul.actions
-{
-  display: none;
+  width: 620px;
 }
 
 #doc div[data-retweet-id] .stream-item-footer
@@ -118,9 +140,19 @@ div[data-component-term='footer']
   position: absolute;
   top: 8px;
   right: 13px;
+  opacity: 1;
 }
 
 #doc div[data-retweet-id] .stream-item-header small.time
+{
+  display: none;
+}
+
+#doc div[data-retweet-id].hover {
+  background-color: #e5e2e2;
+}
+
+#doc div[data-retweet-id].hover .stream-item-footer ul.tweet-actions
 {
   display: none;
 }
@@ -146,18 +178,23 @@ div[data-component-term='footer']
   display: block;
 }
 
-#doc div.expanding-stream-item.open div[data-retweet-id] ul.actions
-{
+#doc div.expanding-stream-item.open div.hover[data-retweet-id] ul.tweet-actions {
   display: block;
 }
 
+/*
+#doc div.expanding-stream-item.open div[data-retweet-id] ul.actions
+{
+  display: block;
+}*/
+/*
 #doc div.expanding-stream-item.open div[data-retweet-id] .stream-item-footer
 {
   position: relative;
   right: 0;
   top: 5px;
 }
-
+*/
 /*-----*/
 /* Nav */
 /*-----*/
